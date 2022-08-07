@@ -53,13 +53,11 @@ else:
     addition_btn = [60, 201]  # 24. 추가버튼 위치
 
 
-def scrolltocopypaste(
+def scrolltocopypaste():
+    None
 
-        # 코드 시작
-        p.
-
-
-    click(tao_web[0], tao_web[1])  # taobao웹사이트로 이동
+# 코드 시작
+p.click(tao_web[0], tao_web[1])  # taobao웹사이트로 이동
 
 # 주문번호 복사 붙여넣기
 p.moveTo(order_number[0], order_number[1])
